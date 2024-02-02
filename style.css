@@ -1,0 +1,129 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1{
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 4.5rem;
+    display: inline;
+}
+img{
+    max-width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px 0 grey;
+}
+img:hover
+{
+    opacity: .5;
+    cursor: pointer;
+}
+.choices
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 6rem;
+}
+.msg-conatiner
+{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 4rem 0;
+}
+.yourScore
+{
+    font-size: 3rem;
+}
+.comScore
+{
+    font-size: 3rem;
+}
+#result
+{
+    font-size: 2rem;
+    background-color:teal;
+    color: #fff;
+    display: inline;
+    padding: .4rem;
+    font-weight: 600;
+    border-radius: .7rem;
+    cursor: pointer; 
+}
+#playAgain
+{
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: darkolivegreen;
+    max-width: 6rem;
+    margin: auto;
+    padding: .4rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: .7rem;
+    font-weight: 600;
+    display: none;
+}
+@media screen and (max-width:900px) {
+    h1{
+        
+        font-size: 3.5rem;
+        
+    }
+}
+@media screen and (max-width:700px) {
+    h1{
+        
+        font-size: 2.5rem;
+        display: block;
+    }
+    .yourScore
+{
+    font-size: 2rem;
+}
+.comScore
+{
+    font-size: 2rem;
+}
+
+img{
+    max-width: 150px;
+    height: 100px;
+}
+}
+@media screen and (max-width:540px) 
+{
+    h1{
+        
+        font-size: 1.6rem;
+        display: block;
+    }
+    .yourScore
+{
+    font-size: 1.7rem;
+}
+.comScore
+{
+    font-size: 1.7rem;
+}
+
+img{
+    max-width: 80px;
+    height: 80px;
+}
+#result
+{
+    font-size: 1.7rem;
+    padding: .6rem;   
+}
+#playAgain
+{
+    font-size: 1.2rem;
+}
+}
